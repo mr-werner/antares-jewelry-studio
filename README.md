@@ -38,8 +38,8 @@ Environment variables (all optional): `VITE_CONCEPT_END_DATE` (countdown end, 20
 
 - Replaces the WordPress 3.9 "Big Brother" blog theme (it still shows "Proudly powered by WordPress"), whose homepage leads with a small stock wedding photo and a plain bulleted text list.
 - The "Our Location" sidebar map is blank: it calls the Google Maps API without a key, so the address (1400 Falls Court) never appears as text anywhere on the site. The concept prints the address and adds a working map link.
-- The navigation lists "Home" twice and in alphabetical order, with About first and Home in the middle; services are split over four thin pages (Jewelry Repair is one sentence). The concept puts everything on one page with a short nav.
-- Pages load over http:// only, with `?page_id=` URLs and no meta description.
+- The top menu has only Home and About; the service pages are reachable only from a sidebar list sorted alphabetically (with "Home" in the middle), and services are split over four thin pages (Jewelry Repair is one sentence). The concept puts everything on one page with a short nav.
+- Pages use `?page_id=` URLs and have no meta description.
 - "Special Orders" shows a bare URL (http://AntaresJewelry.jewelershowcase.com) instead of a link label; the concept gives it a proper button.
 - The About page repeats every service page word for word, with small wording differences ("out source" vs "outsource").
 - Adds tap-to-call buttons, a request form and a layout that works at 390px with no sideways scrolling.
